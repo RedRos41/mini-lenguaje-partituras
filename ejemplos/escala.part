@@ -1,0 +1,7 @@
+# Escala de Do mayor
+texto titulo = "Escala de Do";
+entero velocidad = leer("Tempo: ");
+tempo velocidad;
+mostrar("Tocando: ", titulo);
+tocar do4 1/4; tocar re4 1/4; tocar mi4 1/4; tocar fa4 1/4;
+tocar sol4 1/4; tocar la4 1/4; tocar si4 1/4; tocar do5 1/2;

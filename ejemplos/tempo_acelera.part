@@ -1,0 +1,17 @@
+# El tempo acelera en cada vuelta
+decimal velocidad = 80.0;
+booleano final = falso;
+entero vuelta = 1;
+mientras vuelta <= 4 hacer |
+  tempo velocidad;
+  si vuelta == 4 entonces |
+    final = verdadero;
+    tocar do5 1/2;
+  | sino |
+    tocar mi4 1/8; tocar sol4 1/8;
+    silencio 1/4;
+  |
+  velocidad = velocidad * 1.25;
+  vuelta = vuelta + 1;
+|
+si final entonces | mostrar("¡Fin!"); |

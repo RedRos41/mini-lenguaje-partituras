@@ -1,0 +1,2 @@
+entero vuelta = 1;
+mientras vuelta <= 4 | silencio 1/4; |

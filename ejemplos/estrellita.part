@@ -1,0 +1,10 @@
+# Melodía tradicional "Estrellita"
+entero veces = leer("¿Cuántas repeticiones? ");
+entero i = 1;
+tempo 100;
+mientras i <= veces hacer |
+  mostrar("Repetición ", i);
+  tocar do4 1/4; tocar do4 1/4; tocar sol4 1/4; tocar sol4 1/4;
+  tocar la4 1/4; tocar la4 1/4; tocar sol4 1/2;
+  i = i + 1;
+|

@@ -1,0 +1,4 @@
+entero a = 1;
+entero b = 2;
+entero c = 3;
+si a < b < c entonces | silencio 1/4; |

@@ -1,0 +1,5 @@
+# Varios errores independientes en un mismo archivo
+entero x = 5
+tocar do9 1/4;
+mientras x > 0 | x = x - 1; |
+tocar re4 ;
